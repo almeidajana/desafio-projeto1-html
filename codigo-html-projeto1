@@ -1,0 +1,321 @@
+<head>
+
+    <h1 style="color: red;"><p>Curso: Formação HTML e Web Developer</p></h1>
+    <hr />
+
+    <img src="https://static.vecteezy.com/ti/fotos-gratis/t2/6709644-abstract-modern-tech-of-programming-code-screen-developer-gratis-foto.jpg"
+     alt="codigo html" style="height: fit-content;">
+    
+</head>
+
+    <body>
+        <h2 style="color: blueviolet;"><strong> <u>Módulo 1: Primeiros Passos com HTML</u> </strong></h2> 
+        <p><strong>Neste site você terá acesso ao conteúdo resumido do primeiro módulo do curso <i>Primeiros passos com HTML</i>, disponível 
+            na plataforma <a href="http://dio.me" target="_blank" rel="noopener noreferrer">Digital Innovation One</a>. Ele é ministrado pelo professor <i>Senior Developer</i> Diogo Mainardes.</strong>
+
+        </p>
+      <h2 id="topo"><strong><p>Índice das aulas deste curso:</p></strong></h2>
+
+     <ul>
+        <li><a href=#historia>História dos Computadores</a></li>
+        <li><a href=#clients>O que são <i>Clients?</i></li>
+        <li><a href=#servers>O que são <i>Servers?</i></li>
+        <li><a href=#basica>Estrutura básica do HTML</li>
+        <li><a href=#textos>Textos</li>
+        <li><a href=#listas>Listas ordenadas e não ordenadas</li>
+        <li><a href=#links>Links</li>
+        <li><a href=#atributos>Atributos das tags</a></li>
+     </ul>
+
+     <h3 id="historia" style="color: crimson;"> <u>História dos Computadores</u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+
+     <p><img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/26776_1798DEE935286D54.jpg?w=1024" 
+     alt="duas mulheres em um computador de vávlua" style="height: 200; width: 300;"> </p>
+
+     <p>Os primeiros computadores surgiram na primeira metade do século XX, no período pós Segunda Guerra Mundial. Mas a humanidade
+        já testava rudimentos de computadores há muitos séculos. Mas vamos conhecer quais são as gerações de computadores.
+        <ul>
+            <li> <strong>Primeira Geração (1945 a 1959):</strong> Os primeiros computadores funcionavam com tecnologia eletromecânica, ou seja, a energia
+                elétrica e válvulas. Eram enormes e ocupavam salas inteiras. Eram usados em instalações militares. Os dois primeiros foram nomeados <i>MARK 1 </i>e <i>ENIAC</i>.</li>
+            <li> <strong>Segunda Geração (1959 a 1965):</strong> A segunda geração foi marcada pelas máquinas que usavam transistores ao invés 
+                de válvulas. Destaque para o uso que também passou a ser comercial.
+            </li>
+            <li> <strong>Terceira Geração (1964 a 1974):</strong> De transistores, os computadores desta geração passaram a funcionar a base de <i>chips</i>
+            ou circuitos integrados. Assim, eram mais baratos e rápidos do que os anteriores, sendo mais difundido entre empresas.</li>
+            <li> <strong>Quarta Geração (1974 a 1989):</strong> Aqui, os computadores passaram a utilizar microprocessadores, o que permitiu
+            a instalação de milhares de transistores. As máquinas eram muito menores, o que permitu o uso em residências em larga escala.</li>
+            <li><strong>Quinta Geração (1989 - atualmente):</strong>Os computadores usavam ULSI, uma tecnologia que possibilitou o uso de milhões
+            de microchips, transformando os computadores em máquinas extremamente velozes e úteis, além de popularizá-los de vez.</li>
+            <li><strong>Sexta Geração?:</strong> No campo científico, há uma discussão sobre estarmos na sexta geração, marcada pelo uso
+            de redes sociais e, principalmente, da <strong>Inteligência Artificial</strong>. Também estamos próximos de vivenciar a 
+        construção dos <strong>Computadores Quânticos</strong>, que funcionam a base de <i>qubits</i>, extremamente mais rápido do que os
+    computadores que conhecemos atualmente.</li>
+        </ul>
+
+        <section>
+            <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+            <p><a href="https://brasilescola.uol.com.br/informatica/evolucao-dos-computadores.htm" target="_blank" rel="noopener noreferrer">
+                Brasil Escola: História dos Computadores</a></p>
+            <p><a href="https://tecnoblog.net/responde/o-que-e-um-computador-quantico/" target="_blank" rel="noopener noreferrer">
+                Tecnoblog: Computadores Quânticos</a> </p>
+        </section>
+
+        <section>
+            <h3><strong><i>Sessão Curiosidade em Vídeo:</strong></i></h3>
+
+            <ol>
+               <p><li><a href="https://www.youtube.com/watch?v=dy0wpDfnpzo" target="_blank" rel="noopener noreferrer">
+                    A História do ENIAC</a></li></p> 
+                <p><li><a href="https://www.youtube.com/watch?v=D-_ZEFHxD94" target="_blank" rel="noopener noreferrer">
+                    Como seria o maior computador do universo?</a></li></p>
+            </ol>
+   
+            <hr />
+
+     <h3 id="clients" style="color: crimson;"> <u>O que são <i>Clients?</i></u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+
+    <p> <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240715173920/Client-Server-Architecture.webp" 
+        alt="esquema arquitetura client server" style="height: 200; width: 300;">
+
+    </p>
+
+     <p><i>Clients</i> no linguajar web, são os dispositivos conectados em uma rede, seja a <i>internet</i> ou uma 
+    rede local. Hoje, existem vários dispositivos que se conectam a redes, como os <i>smartphones</i>, <i>tablets</i>, 
+câmeras de segurança, ar condicionados e vários outros. Os computadores foram os primeiros dispositivos <i>clients</i> a ter
+acesso à rede. Ao se criar um <i>site</i>, deve-se levar em consideração os tipos de dispositivos para os quais ele será utilizado 
+(chamamos de <strong>responsividade</strong> da aplicação web) e os tipos de navegadores que serão compatíveis (chamamos 
+de <strong>compatibilidade</strong> da aplicação web).</p>
+<p><i>Navegadores</i> são os programas criados por empresas com a finalidade de abir e executar arquivos da <i>internet</i>. 
+    Em inglês, eles são chamados de <i>browsers</i>. O primeiro navegador foi o <i>World Wide Web</i> (WWW), criado por Tim Berners-Lee 
+        em 1990. Ele era simples, com uma interface fácil de usar e permitiu que documentos de texto fossem conectados pela rede 
+        pública.</p>
+<p> Os <i>browsers</i> são gratuitos e apresentam o mesmo objetivo, porém alguns possuem funcionalidades e diferenças em tratar a 
+informação vinda da <i>internet</i>, mas todos pertencem ao consórcio W3C. Hoje, existem alguns navegadores no mercado, mas os 
+principais são: <strong>Chrome</strong> da Google, <strong>Mozilla Firefox</strong> da Mozilla, <strong>Edge</strong> da Microsoft, 
+<strong>Opera Browser</strong> da Opera, dentre alguns outros.</p>
+
+<section>
+    <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+
+    <p><a href="https://www.mozilla.org/pt-BR/firefox/browsers/browser-history/" target="_blank" rel="noopener noreferrer">A história dos 
+        navegadores.</a></p>
+    <p><a href="https://pt.itpedia.nl/2024/04/27/de-toekomst-van-thin-clients-en-thick-clients-trends-technologieen-en-verwachtingen/" target="_blank" rel="noopener noreferrer">
+        O que são os diferentes tipos de <i>clients</i>.</a></p>
+
+        <section>
+            <h3><strong><i>Sessão Curiosidade em Vídeo:</strong></i></h3>
+
+            <ol>
+              <p><li><a href="https://www.youtube.com/watch?v=sZ_Ep6VGkmI" target="_blank" rel="noopener noreferrer">
+                    O que é e como funcionam os navegadores da internet.</a></li></p>
+                <p><li><a href="https://www.youtube.com/watch?v=gctocRTgq-U" target="_blank" rel="noopener noreferrer">
+                    A diferença entre <i>Thin Client</i> e <i>Thick Client</i>.</a></li></p>
+            </ol>
+
+
+            <hr />
+
+     <h3 id="servers" style="color: crimson;"><u>O que são <i>Servers?</i></u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+
+     <p> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1200px-Client-server-model.svg.png"
+         alt="esquema arquitetura client server" style="height:200; width:300;">
+
+         </p>
+
+     <p><i>Servers</i> são computadores ou <i>softwares</i> mais robustos e potentes que contém dados, informações e arquivos 
+        para outros computadores conecatados por uma rede. Essa conexão pode ser em uma rede local (Local Area Network ou LAN) 
+        ou a internet. Vamos conhececr os principais tipos de servidores na tabela abaixo:</p>
+
+        <table>
+            <tr>
+                <th><i>Data Base Center</i></th>
+                <th><i>Firewall</i></th>
+                <th>Servidor <i>Proxy</i></th>
+                <th><i>E-mail</i></th>
+                <th>Web</th>
+            </tr>
+            <tr>
+                <td>Servidor onde estão os bancos de dados, arquivos, etc. Pode ser internet ou LAN</td>
+                <td>Possibilida o bloqueio de sites , atuando como segurança caso algum <i>client</i> malicioso queira acessar 
+                dispositivos ou a rede</td>
+                <td>Possibilita o bloqueio de sites</td>
+                <td>Armazena correspondências eletrônicas</td>
+                <td>Sites que acessamos</td>
+            </tr>
+        </table>
+
+        <section>
+            <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+            <p><a href="https://coodesh.com/blog/dicionario/o-que-e-um-servidor/" target="_blank" rel="noopener noreferrer">
+                O que é um servidor?</a></p>
+            <p><a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada" target="_blank" rel="noopener noreferrer">
+            Arquitetura <i>Client-Server</i></a></p>
+
+            <section>
+                <h3><strong><i>Sessão Curiosidade em Vídeo:</strong></i></h3>
+            
+                <ol>
+                    <p><li><a href="https://www.youtube.com/watch?v=L5BlpPU_muY" target="_blank" rel="noopener noreferrer">
+                          Modelo <i>client-server</i></a></li></p>
+                      <p><li><a href="https://www.youtube.com/watch?v=jQx6wItPuSo" target="_blank" rel="noopener noreferrer">
+                          Você sabe como funciona um <i>data center?</i></a></li></p>
+                  </ol>
+                
+
+     <hr />
+
+
+     <h3 id="basica" style="color: crimson;"><u>Estrutura básica do HTML</u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvtjsqz7GBi893NaUXUcnxXre_8lmlLL2A5Q&s" 
+        alt="desenho simbolo html" style="height: 200; width: 300;">
+
+    </p>
+
+
+     <p>O HTML é uma sigla em inglês que significa <i>Hypertext Markup Language</i> ou Linguagem de Marcação de hipertexto. Ela 
+        foi criada por <strong>Tim Berners-Lee</strong> em 1990, para que ele e seus colegas pesquisadores pudessem compartilhar 
+        documentos da publicação de seus trabalhos, nos primórdios da internet. Costuma-se dizer que o HTML é uma linguagem <i>client side</i>,
+        ou seja, ela é executada no dispositivo do usuário, mais precisamente pelo navegador. Basicamente ela é composta por <i>tags</i> que marcam o texto e o deixam
+        de acordo com a vontade do programador.</p>
+        <p>E você sabia que tem uma "rixa" entre os especialistas em tecnologia sobre o HTML? Algumas pessoas defendem que é 
+            uma linguagem de programação, mas outras dizem que o HTML é apenas uma linguagem de marcação de texto e não de 
+            programação. Que tal você pensar um pouco e dizer para gente o que acha desse debate? Basta marcar sua opção e escrever 
+            sua opinião no campo abaixo.
+
+            <form>
+                <input type="checkbox" id="opção1" name="opção1" value="">
+                <label for="opção1"> Concordo que HTML é uma linguagem apenas de marcação de texto.</label><br>
+                <input type="checkbox" id="opção2" name="opção2" value="">
+                <label for="opção2"> Concordo que HTML é uma linguagem de programação.</label><br>
+               
+              </form>
+
+            <form>
+                <input type="text" >
+              </form>
+        </p>
+
+        <section>
+            <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+            <p><a href="https://www.hostmidia.com.br/blog/html/#:~:text=O%20HTML%20foi%20criado%20por,ainda%20dava%20seus%20primeiros%20passos." target="_blank" rel="noopener noreferrer">
+                A história e importância do HTML</a></p>
+            <p><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos#:~:text=O%20HTML%20não%20é%20considerado,Desenvolvimento%20web." target="_blank" rel="noopener noreferrer">
+            HTML: Linguagem de programação?</a></p>
+
+     <hr />
+
+
+     <h3 id="textos" style="color: crimson;"><u>Textos</u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+    <p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ98mNfyHgtdi-khqgJMZBgyI1LtQ5IP9DAA&s" 
+        alt="imagem estilizada codigo html" style="height: 200; width: 300;">
+
+    </p>
+
+     
+     <p>Existem inúmeras tags no HTML, vamos ver as principais quando falamos em textos.
+        <ol>
+            <li style="color: blue;"><i>html</i>: Define o documento HTML.</li>
+            <li style="color: blue;"><i>head:</i> Contém metadados sobre a página.</li>
+            <li style="color: blue;"><i>title:</i> Define o título da página.</li>
+            <li style="color: blue;"><i>body:</i> Contém todo o conteúdo da página.</li>
+            <li style="color:blue"><i>h (1 a 6):</i> Definem títulos e subtítulos. </li>
+            <li style="color: blue;"><i>p:</i> Define um parágrafo.</li>
+            <li style="color: blue;"><i>br:</i> Insere uma quebra de linha</li>
+            <li style="color: blue;"><i>hr:</i> Insere uma linha horizontal para separação de conteúdo.</li>
+            <li style="color: blue;"><i>strong:</i> Deixa o texto em negrito.</li>
+            <li style="color: blue;"><i>i:</i> Deixa o texto em itálico.</li>
+        </ol>
+
+     </p>
+
+     <section>
+        <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+        <p><a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank" rel="noopener noreferrer">Tags 
+            para formatação de texto HTML.
+        </a></a></p>
+
+     <hr />
+
+
+     <h3 id="listas" style="color: crimson;"><u>Listas ordenadas e não ordenadas</u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgjtp1GUd16vJYPMkVDvzIuOzmuoR_5f-m8w&s" 
+        alt="imagem estilizada codigo html" style="height: 200; width: 300;">
+
+    </p>
+
+     <p>
+        Para aplicar listas, usamos tags diferentes de acordo com a intenção, caso a lista seja ordenada ou não ordenada. Vamos vê-las:
+        <ol> <li style="color: blue;"><i>ul:</i> Cria uma lista não ordenada, com marcadores.</li>
+            <li style="color: blue;"><i>ol:</i> Cria uma lista ordenada, com números ao invés de marcadores.</li>
+            <li style="color: blue;"><i>li:</i> Define os itens em uma lista.</li>
+        </ol>
+     </p>
+
+     <section>
+        <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+        <p><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank" rel="noopener noreferrer">Tags 
+            para criação de listas.
+        </a>
+
+     <hr />
+
+
+     <h3 id="links" style="color: crimson;"><u>Links</u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+    <p><img src="https://www.locaweb.com.br/blog/wp-content/uploads/2023/07/o-que-e-html-capa.jpg" 
+        alt="imagem de mao digitando computador"a style="height: 200; width: 300;">
+
+    </p>
+
+
+    <p>Para criar <i>links</i> em uma página, deve-se usar a tag <i style="color: blue;">a.</i> Dentro dela, temos alguns atributos, assim como em outras. 
+     Na próxima sessão, vamos abordar o que são e as principais tags que os utilizam.
+    </p> 
+
+    <section>
+        <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+        <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank" rel="noopener noreferrer">Tags sobre links.
+        </a>
+
+     <hr />
+
+     <h3 id="atributos" style="color: crimson;"><u>Atributos das tags</u></h3>
+     <small> <a href=#topo> Voltar ao topo </a></small>
+
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU_YMou0wxRRH35_Epu7Gqc83Tuja_ZT-sXZjB_Gy7rvgmjXl7rQKV5f5tRbHjZQNS098&usqp=CAU"
+         alt="imagem estilizada codigo html" style="height: 200; width: 300;">
+
+    </p>
+
+    <p>Alguns elementos HTML apresentam atributos, ou seja, características que podem adicionar elementos. Para introduzir um atributo em uma tag, 
+        deve-se digitar o atributo dentro da tag específica. Vamos ver quais são os prinicpais atributos:
+
+        <ol><li style="color: blue;"><i>a href:</i> especifica onde o link adicionado será aberto.</li>
+            <li style="color: blue;"><i>src:</i> usado na tag <i>img</i>, especifica o caminho da imagem usada na página.</li>
+            <li style="color: blue;"><i>width e height:</i> Define o tamanho da imagem.</li>
+            <li style="color: blue;"><i>style:</i> Define diferentes estilos: cor da fonte, tipo, cor dee fundo e outros.</li>
+
+        </ol>
+
+    </p>
+
+    <section>
+        <h3><strong>Saiba mais clicando nos links abaixo!</strong></h3>
+        <p><a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank" rel="noopener noreferrer">Atributos das tags.
+        </a>
+
+
+    </body>
